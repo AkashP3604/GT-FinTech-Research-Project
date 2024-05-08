@@ -10,3 +10,5 @@ For Task 1.2, I decided to utilize the OpenAI LLM API to generate the specific i
 For Task 2, I decided to utilize Flask because its simplicity and suitability for smaller python projects provides just the right amount of functionality without unnecessary overhead. It allows you to quickly develop and deploy a functional web application straight from python libraries without getting bogged down by unnecessary complexity.
 
 I have detailed the reasons for each section of code under comments giving logic as to why I coded what I coded and how it will be used. Additionally, I embedded HTML code instead of separate HTML files to assist the use of Flask for ease of grading in the final submission of code.
+
+The files Task_1_1 and Task_1_2 are the two backend components with comments and Task_2 is the full script with the app implementation and comments for the code used to assist Flask.
