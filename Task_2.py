@@ -141,6 +141,9 @@ def analyze():
 
 # Function to visualize insights using Matplotlib
 def visualize_insights(insights):
+    years = range(1995, 2024)
+    revenue_growth = [insights.get('Revenue Growth', '')] * len(years)
+    pe_ratio = [insights.get('Price-to-Earnings Ratio', '')] * len(years)
     plt.figure(figsize=(10, 6))
     plt.plot(years, revenue_growth, label='Revenue Growth')
     plt.plot(years, pe_ratio, label='Price-to-Earnings Ratio')
